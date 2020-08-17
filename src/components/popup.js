@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './popup.css';
+import './Popup.css';
 
 class Popup extends Component{
 
@@ -18,4 +18,8 @@ class Popup extends Component{
 
 
 export default Popup; 
+
+
+//Props get pass to component
+//State within component  
 

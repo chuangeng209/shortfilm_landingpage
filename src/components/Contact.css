@@ -1,0 +1,26 @@
+.Form {  
+    position: fixed;  
+    width: 50%;  
+    height: 50%;  
+    left: 25%;  
+    right: 25%;  
+    top: 75%;  
+    bottom: 15%; 
+    margin-top: auto;  
+    background-color: black;
+    }  
+
+.formComponents{
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#typezone {
+    border: 1px white solid;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: small;
+    resize: none; 
+    width: 80%
+}
+

@@ -1,20 +1,29 @@
 import React, { Component } from 'react';
 import Video from './components/video'; 
 import Popup from './components/popup'; 
+import Contact from './components/contact'
 import './App.css';
 
 class App extends Component{
 
-
-    constructor(props){
-        super(props);
-        this.state = {showPopup: false}
+    //Constructor to use to initiaize state \
+    //If you don’t initialize state and you don’t bind methods, you don’t need to implement a constructor for your React component.
+    constructor(props){ //constructor method --> create and init object within class 
+        super(props); //must be used b4 'this' keyword
+        this.state = {showPopup: false}; //use super before 'this' keyword 
+        this.state = {showForm: false};
     }
 
     togglePopup() {  
-        this.setState({  
-             showPopup: !this.state.showPopup  
+        this.setState({  //to set state 
+             showPopup: !this.state.showPopup  //Opposite of default if click --> showPopup : True  
         });  
+    }
+
+    toggleFormPopup() {
+        this.setState({
+            showForm: !this.state.showForm 
+        });
     }
 
     render(){
@@ -26,15 +35,19 @@ class App extends Component{
         <ul>
             <li><a href="https://www.youtube.com/channel/UCXcm2qssdip3tdSaU9przcQ/featured" className="icon brands fa-linkedin"><span className="label">Youtube</span></a></li>
             <li><a href="https://www.instagram.com/aceproductions96/?hl=en" className="icon brands fa-github"><span className="label">Instagram</span></a></li>
-            <li><button onClick={this.togglePopup.bind(this)}>About</button>  
-            {this.state.showPopup ?  
+            <li><button onClick={this.togglePopup.bind(this)} style={cursor}>About</button>  
+            {this.state.showPopup ?  //condition 
             <Popup  
-                text='Ace Productions is a short film making channel that focus on making horror and thriller content'  
-                closePopup={this.togglePopup.bind(this)}  
+                text='Ace Productions is film production group that focus on making independent horror and thriller short films'  
+                closePopup={this.togglePopup.bind(this)}  //inside --> // This binding is necessary to make `this` work in the callback
             />  
-            : null  
-            } </li>
-            <li><button>Contact</button></li>
+            : null } 
+            </li>
+            <li><button onClick={this.toggleFormPopup.bind(this)} style={cursor}>Contact</button>
+                {this.state.showForm ? 
+                <Contact closeForm={this.toggleFormPopup.bind(this)}
+                />             : null }
+            </li>
         </ul>
         </div>
     </div>
@@ -50,6 +63,10 @@ const container = {
     textAlign: "center"
 }
 
+const cursor = {
+    cursor: "pointer",
+    fontWeight: "bold"
+}
 
 
 

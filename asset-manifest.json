@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shortfilm_landingpage/static/css/main.1efa3e5b.chunk.css",
+    "main.css": "/shortfilm_landingpage/static/css/main.248f50cd.chunk.css",
     "main.js": "/shortfilm_landingpage/static/js/main.6c745b3a.chunk.js",
     "main.js.map": "/shortfilm_landingpage/static/js/main.6c745b3a.chunk.js.map",
     "runtime-main.js": "/shortfilm_landingpage/static/js/runtime-main.4c956931.js",
@@ -8,16 +8,16 @@
     "static/js/2.b4ebae54.chunk.js": "/shortfilm_landingpage/static/js/2.b4ebae54.chunk.js",
     "static/js/2.b4ebae54.chunk.js.map": "/shortfilm_landingpage/static/js/2.b4ebae54.chunk.js.map",
     "index.html": "/shortfilm_landingpage/index.html",
-    "precache-manifest.613affe103a330d270044b1163f5109d.js": "/shortfilm_landingpage/precache-manifest.613affe103a330d270044b1163f5109d.js",
+    "precache-manifest.aa613eaba1225a009269074e6cff79dd.js": "/shortfilm_landingpage/precache-manifest.aa613eaba1225a009269074e6cff79dd.js",
     "service-worker.js": "/shortfilm_landingpage/service-worker.js",
-    "static/css/main.1efa3e5b.chunk.css.map": "/shortfilm_landingpage/static/css/main.1efa3e5b.chunk.css.map",
+    "static/css/main.248f50cd.chunk.css.map": "/shortfilm_landingpage/static/css/main.248f50cd.chunk.css.map",
     "static/js/2.b4ebae54.chunk.js.LICENSE.txt": "/shortfilm_landingpage/static/js/2.b4ebae54.chunk.js.LICENSE.txt",
     "static/media/ace.jpg": "/shortfilm_landingpage/static/media/ace.f82cd6f8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4c956931.js",
     "static/js/2.b4ebae54.chunk.js",
-    "static/css/main.1efa3e5b.chunk.css",
+    "static/css/main.248f50cd.chunk.css",
     "static/js/main.6c745b3a.chunk.js"
   ]
 }

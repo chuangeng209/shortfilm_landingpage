@@ -31,8 +31,8 @@ class App extends Component{
     <div className="App">
         <title>ACE PRODUCTIONS</title>
         <div style={container}>
-        <Video/>
-        <ul>
+        <h1 style={h1Style}>ACE PRODUCTIONS</h1>
+        <ul style={text}>
             <li><a href="https://www.youtube.com/channel/UCXcm2qssdip3tdSaU9przcQ/featured" className="icon brands fa-linkedin"><span className="label">Youtube</span></a></li>
             <li><a href="https://www.instagram.com/aceproductions96/?hl=en" className="icon brands fa-github"><span className="label">Instagram</span></a></li>
             <li><button onClick={this.togglePopup.bind(this)} style={cursor}>About</button>  
@@ -48,6 +48,7 @@ class App extends Component{
                 <Contact closeForm={this.toggleFormPopup.bind(this)}
                 />             : null }
             </li>
+        <Video />
         </ul>
         </div>
     </div>
@@ -55,12 +56,22 @@ class App extends Component{
 }
 }
 
+const h1Style = {
+    color: 'red',
+    textAlign: 'center',
+    marginTop: '3px'
+}
+
+const text = {
+    fontSize: "25px",
+}
+
 const container = {
-    // height: "100vmax",
-    // width: "100vmax%",
     backgroundColor: "#111",
     background: "linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 1) 100%)",
-    textAlign: "center"
+    textAlign: "center",
+    overflow: "hidden",
+    touchAction: "none",
 }
 
 const cursor = {

@@ -24,6 +24,7 @@ class Contact extends Component {
             >
                 <div>
                     <label>Your Email: </label>
+                    <p></p>
                     <input type="email" name="email" id='typezone'/>
                 </div>
                 <div>

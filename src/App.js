@@ -43,10 +43,14 @@ class App extends Component{
             />  
             : null } 
             </li>
-            <li><button onClick={this.toggleFormPopup.bind(this)} style={cursor}>Contact</button>
+            <li>
+                <div>
+                <button onClick={this.toggleFormPopup.bind(this)} style={cursor}>Contact</button>
                 {this.state.showForm ? 
                 <Contact closeForm={this.toggleFormPopup.bind(this)}
                 />             : null }
+                                    
+                </div>
             </li>
         <Video />
         </ul>

@@ -65,7 +65,8 @@ class Contact extends Component {
 }
 
 const cursor = {
-    cursor: "pointer"
+    cursor: "pointer",
+    fontWeight: "bold"
 }
 
 export default Contact; 

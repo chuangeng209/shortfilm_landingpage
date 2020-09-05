@@ -1,8 +1,8 @@
 {
-  "name": "shortfilm_landingpage",
+  "name": "ace-productions",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chuangeng555.github.io/ace-productions.github.io",
+  "homepage": "https://chuangeng555.github.io/chuangeng555.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

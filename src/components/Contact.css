@@ -1,14 +1,15 @@
 .Form {  
     position: fixed;  
-    width: 50%;  
-    height: 50%;  
-    left: 25%;  
-    right: 25%;  
-    top: 75%;  
-    bottom: 15%; 
+    width: 80%;   
+    height: 80%; 
+    left: 10%;  
+    right: 10%;  
+    top: 30%;  
+    bottom: 10%; 
     margin: auto;  
     background-color: black;
-    }  
+    font-weight: bold;
+}  
 
 .formComponents{
     box-sizing: border-box;
@@ -22,7 +23,7 @@
     line-height: 1.4;
     font-size: medium;
     resize: none; 
-    width: 80%;
+    width: 70%;
     margin-bottom: 5%;
 }
 

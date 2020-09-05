@@ -1,4 +1,4 @@
-# shortfilm_landingpage
+# Shortfilm_landingpage
 A landing page to showcase my friend independent short films
 
 Can be viewed both in Mobile and Desktop platform 
